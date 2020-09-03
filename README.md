@@ -17,4 +17,6 @@ samples, guidance on mobile development, and a full API reference.
 # DevsTravels
 
 ### Projeto para termino do curso de introdução a flutter com provider + firebase RealTimeDataBase
-![Alt text](./lib/assets/devstravelMenor.png?raw=true "DevsTravel")
+![Alt text]<p align="center">
+             <img width="600" height="200" src="./lib/assets/devstravelMenor.png?raw=true "DevsTravel"">
+           </p>
