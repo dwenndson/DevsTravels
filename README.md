@@ -18,5 +18,5 @@ samples, guidance on mobile development, and a full API reference.
 
 ### Projeto para termino do curso de introdução a flutter com provider + firebase RealTimeDataBase
 <p align="center">
-             <img width="600" height="200" src="./lib/assets/devstravelMenor.png?raw=true "DevsTravel"">
+             <img src="./lib/assets/devstravelMenor.png?raw=true "DevsTravel"">
            </p>
