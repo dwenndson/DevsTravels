@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 class PreloadPage extends StatefulWidget {
   @override
@@ -6,10 +7,11 @@ class PreloadPage extends StatefulWidget {
 }
 
 class _PreloadPage extends State<PreloadPage> {
-  bool loading = false;
+  bool loading = true;
 
   @override
   Widget build(BuildContext context) {
+    SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.dark);
     return Scaffold(
       body: Center(
         child: Column(
@@ -18,28 +20,28 @@ class _PreloadPage extends State<PreloadPage> {
             Image.asset('lib/assets/devstravelMenor.png',
             width: 200
             ),
-            Container(
+
+            loading ? Container(
               margin: EdgeInsets.all(20),
               child: Text('Carregando Informações...',
                 style: TextStyle(
                 fontSize: 16,
                 ),
               )
-            ),
+            ) : Container(),
 
-            CircularProgressIndicator(
+            loading ? CircularProgressIndicator(
               strokeWidth: 3,
               valueColor: AlwaysStoppedAnimation<Color>(Colors.green),
-            ),
+            ): Container(),
 
-            Container(
+            !loading ? Container(
               margin: EdgeInsets.all(30),
-              child: Text('Php nunca será um mobile',
-                style: TextStyle(
-                  fontSize: 11
+              child: RaisedButton(
+                child: Text('Tentar novamente'),
+                onPressed: (){},
                 ),
-              ),
-            )
+              ): Container(),
           ],
         ),
       ),
