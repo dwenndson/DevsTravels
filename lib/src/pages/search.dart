@@ -1,18 +1,12 @@
+import 'package:devstravel/src/partials/customDrawer.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../models/appdata.dart';
 import '../partials/customappbar.dart';
-import '../partials/customDrawer.dart';
 
-class HomePage extends StatelessWidget {
+class SearchPage extends StatelessWidget {
 
   GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey();
-
-  TextStyle style = TextStyle(
-    fontSize: 15,
-    fontWeight: FontWeight.bold,
-    fontFamily: 'Helvetica Neue'
-  );
 
   @override
   Widget build(BuildContext context) {
@@ -22,7 +16,8 @@ class HomePage extends StatelessWidget {
         appBar: CustomAppBar(
           scaffoldKey: _scaffoldKey,
           pageContext: context,
-          title: 'Página Home',
+          title: 'Busque uma Cidade',
+          hiderSearch: true
         ),
         drawer: customDrawer(
           pageContext: context
@@ -32,16 +27,7 @@ class HomePage extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              Container(
-                child: Text('Bem vindo(a) ao',
-                style: style,),
-              ),
-              Image.asset('lib/assets/devstravelMenor.png'),
-              Container(
-                margin: EdgeInsets.only(top: 20),
-                child: Text('Seu guia de viagem perfeito',
-                  style: style,),
-              ),
+              Text('Pagina de busca')
             ],
           ),
         ),
