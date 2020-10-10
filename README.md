@@ -25,6 +25,5 @@ samples, guidance on mobile development, and a full API reference.
 Projeto está sendo desenvolvimento onde fiz pequenas alterações e fazer coisas a mais para testar meus conhecimentos.
 Gif's demosntrando como está ficando o projeto
 
-<p align="center">
-	![Alt Text](https://github.com/dwenndson/DevsTravels/blob/master/4i1gzu.gif)
-</p>
+
+![](https://github.com/dwenndson/DevsTravels/blob/master/4i1gzu.gif)
