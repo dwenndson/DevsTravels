@@ -26,6 +26,6 @@ Projeto está sendo desenvolvimento onde fiz pequenas alterações e fazer coisa
 Gif's demosntrando como está ficando o projeto
 
 <p align="center">
-             <img src="https://github.com/dwenndson/DevsTravels/blob/master/4i1gxh.gif">
-<		img src="https://github.com/dwenndson/DevsTravels/blob/master/4i1gzu.gif">
+             <img src="https://github.com/dwenndson/DevsTravels/blob/master/4i1gxh.gif"> </br>
+	     <img src="https://github.com/dwenndson/DevsTravels/blob/master/4i1gzu.gif">
            </p>
