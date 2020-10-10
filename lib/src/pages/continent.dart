@@ -4,6 +4,7 @@ import '../models/appdata.dart';
 import '../partials/customappbar.dart';
 import '../partials/customDrawer.dart';
 import '../partials/citybox.dart';
+import '../pages/cityDetails.dart';
 
 class ContinentPage extends StatelessWidget {
 
@@ -22,7 +23,7 @@ class ContinentPage extends StatelessWidget {
 
   void cityBoxAction(context, cityData){
     print(cityData['name']);
-    Navigator.pushNamed(context, '/citydetails', arguments:  cityData);
+    Navigator.pushNamed(context, '/citydetails', arguments:  ScreenArguments(cityData['name'], cityData['review'], cityData['description'], cityData['places']));
   }
 
   @override
