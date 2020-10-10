@@ -29,5 +29,5 @@ Gif's demosntrando como está ficando o projeto
 ![](https://github.com/dwenndson/DevsTravels/blob/master/4i1gzu.gif)
 
 <p align="center">
-             <https://github.com/dwenndson/DevsTravels/blob/master/4i1gzu.gif>
+             <img src="https://github.com/dwenndson/DevsTravels/blob/master/4i1gxh.gif">
            </p>
