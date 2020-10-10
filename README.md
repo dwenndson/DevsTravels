@@ -26,5 +26,5 @@ Projeto está sendo desenvolvimento onde fiz pequenas alterações e fazer coisa
 Gif's demosntrando como está ficando o projeto
 
 <p align="center">
-	![alt text](https://github.com/dwenndson/DevsTravels/blob/master/4i1gzu.gif)
+	![Alt Text](https://github.com/dwenndson/DevsTravels/blob/master/4i1gzu.gif)
 </p>
